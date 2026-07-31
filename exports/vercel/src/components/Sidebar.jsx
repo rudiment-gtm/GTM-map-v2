@@ -43,7 +43,7 @@ export default function Sidebar({ tab, setTab, credits, monthly, showing, groups
       <div style={{ padding: '16px 16px 12px', display: 'flex', alignItems: 'center', gap: 10 }}>
         <div style={{ width: 28, height: 28, borderRadius: 7, background: C.green, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#08170E', fontWeight: 700, fontSize: 14 }}>P</div>
         <div style={{ flex: 1, minWidth: 0 }}>
-          <div style={{ color: C.text, fontSize: 14.5, fontWeight: 700, letterSpacing: '-.01em' }}>ProYard</div>
+          <div style={{ color: C.text, fontSize: 14.5, fontWeight: 700, letterSpacing: '-.01em' }}>Professional Yard Services</div>
           <div style={{ color: C.textDim, fontSize: 10.5 }}>Sales Territory Mapper</div>
         </div>
       </div>
