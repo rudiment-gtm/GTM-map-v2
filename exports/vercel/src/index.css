@@ -1,0 +1,11 @@
+html, body, #root { margin: 0; height: 100%; background: #0B0B0D; }
+body { font-family: 'Inter Tight', system-ui, sans-serif; }
+* { box-sizing: border-box; }
+a { color: #2BD576; text-decoration: none; }
+a:hover { color: #7EE8AC; }
+input, select, textarea { font-family: inherit; }
+input::placeholder, textarea::placeholder { color: #5D6067; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #26282C; border-radius: 99px; }
+::-webkit-scrollbar-track { background: transparent; }
+@keyframes pulseDot { 0%, 100% { opacity: .25 } 50% { opacity: 1 } }
