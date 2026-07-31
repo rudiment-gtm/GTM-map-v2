@@ -40,12 +40,9 @@ export default function Sidebar({ tab, setTab, credits, monthly, showing, groups
       width: 268, flexShrink: 0, background: C.bg, borderRight: '1px solid ' + C.line,
       display: 'flex', flexDirection: 'column', overflow: 'hidden',
     }}>
-      <div style={{ padding: '16px 16px 12px', display: 'flex', alignItems: 'center', gap: 10 }}>
-        <div style={{ width: 28, height: 28, borderRadius: 7, background: C.green, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#08170E', fontWeight: 700, fontSize: 14 }}>P</div>
-        <div style={{ flex: 1, minWidth: 0 }}>
-          <div style={{ color: C.text, fontSize: 14.5, fontWeight: 700, letterSpacing: '-.01em' }}>Professional Yard Services</div>
-          <div style={{ color: C.textDim, fontSize: 10.5 }}>Sales Territory Mapper</div>
-        </div>
+      <div style={{ padding: '16px 16px 12px', display: 'flex', flexDirection: 'column', gap: 4 }}>
+        <img src="/logo.png" alt="Professional Yard Services" style={{ height: 48, width: 'auto', objectFit: 'contain', alignSelf: 'flex-start' }} />
+        <div style={{ color: C.textDim, fontSize: 10.5 }}>Sales Territory Mapper</div>
       </div>
 
       <div role="tablist" aria-label="Product" style={{ margin: '0 14px 16px', background: C.card, border: '1px solid ' + C.border, borderRadius: 10, padding: 3, display: 'flex', gap: 2 }}>
